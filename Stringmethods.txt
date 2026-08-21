@@ -1,0 +1,24 @@
+// String methods
+
+/*
+let string="string"
+string.length
+string.trim
+string.startsWith
+string.endsWith
+string.contains
+string.indexOf
+string.charAt
+string.slice()
+string.padStart
+string.padEnd
+string.replaceAll
+string.toUpperCase
+string.toLowerCase
+string.substring
+string.repeat
+
+
+
+
+*/
