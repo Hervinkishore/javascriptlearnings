@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass generator</title>
+    <style>
+        button{
+            background-color: rgb(11, 145, 247);
+            color: white;
+            border: none;
+            padding: 7px 10px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color:rgb(11, 82, 247);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>password Generator</h1>
+            <p>Click the below button to generate a password</p>
+            <input type="number" id="length" max="15" min="4"><br>
+            <input type="checkbox" id="addLowerCase"><label for="addLowerCase">For Lowercase</label><br>
+            <input type="checkbox" id="addUpperCase"><label for="addUpperCase">For UpperCase</label><br>
+            <input type="checkbox" id="addnums"><label for="addnums">For Numbers</label><br>
+            <input type="checkbox" id="addsymbols"><label for="addsymbols">For Symbols</label><br><br>
+            <button id="gen">generate</button><br>
+            <h2 id="display"></h2>
+        </center>
+    </header>
+    <script src="passGenerator.js"></script>
+</body>
+</html>
