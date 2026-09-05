@@ -7,25 +7,37 @@ class Student{
         this.age=age;
         this.marks=marks;
     }
-    get _firstName(){
-        return this.firstName;
+    set firstName(newFirstName){
+        this._firstName=newFirstName;
     }
-    get _lastName(){
-        return this.lastName;
+    set lastName(newLastName){
+        this._lastName=newLastName;
     }
-    get _fullName(){
-        return this.firstName+" "+this.lastName;
+    set age(newAge){
+        this._age=newAge;
     }
-    get _age(){
-        return this.age;    
+    set marks(newMarks){
+        this._marks=newMarks;
     }
-    get _marks(){
-        return this.marks;
+    get firstName(){
+        return this._firstName;
+    } 
+    get lastName(){
+        return this._lastName;
+    } 
+    get age(){
+        return this._age;
     }
+    get marks(){
+        return this._marks;
+    }
+
+    
 
 }
 const kg=new Student("Kumara","Ganesh",19,80);
-const kishore=new Student("Hervin","Kishore",20,70);
+const kishore=new Student("Hervin","Kishore",10,70);
 const js=new Student("Minnal","",30,90);
-console.log(kg._fullName);
-console.log()
+console.log(kg.firstName);
+console.log(kg);
+console.log(kishore);
